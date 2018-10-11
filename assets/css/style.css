@@ -17,6 +17,9 @@ body {
 .ad-full img {
   width: 100%; }
 
+.ad-col {
+  margin-bottom: 4.5rem; }
+
 /* Customize bootstrap components */
 .porygon-navbar .navbar {
   border-top: 2px solid #6a00d6;
@@ -102,15 +105,33 @@ body {
   height: 100%;
   border-bottom: none; }
 
+.block-news__new {
+  margin-bottom: 4.5rem; }
 .block-news__img {
-  position: relative; }
+  position: relative;
+  margin-bottom: 2.5rem; }
   .block-news__img img {
     width: 100%; }
 .block-news__tag {
-  background-color: #fff;
-  color: #ababab;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
-  position: absolute; }
+  background-color: #fff;
+  color: #ababab;
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem; }
+.block-news__headline {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem; }
+.block-news__author {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem; }
+  .block-news__author a {
+    color: #6a00d6;
+    border-bottom: 1px solid #6a00d6;
+    padding-bottom: 0.5rem; }
+.block-news__text {
+  color: #ababab;
+  line-height: 2.5rem; }
