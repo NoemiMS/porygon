@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+@mixin base-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+@mixin medium-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+@mixin bold-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
