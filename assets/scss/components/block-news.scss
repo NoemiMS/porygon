@@ -1,0 +1,14 @@
+.block-news {
+  &__img {
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+  &__tag {
+    background-color: $c-white;
+    color: $c-grey;
+    @include title-sm;
+    position: absolute;
+  }
+}

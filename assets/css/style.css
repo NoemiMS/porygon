@@ -1,22 +1,116 @@
 /* Base styles*/
 /* Colors */
+/* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 400; }
+
+/* Custom bootstrap base styles */
+.bg-dark {
+  background-color: #1f1f1f; }
+
+.ad-full img {
+  width: 100%; }
 
 /* Customize bootstrap components */
 .porygon-navbar .navbar {
   border-top: 2px solid #6a00d6;
   color: #f5f5f5;
-  font-size: 1.2rem;
   padding: 2.5rem 3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase; }
 .porygon-navbar .nav-item {
-  padding: 0 1.75rem; }
+  padding: 0 1rem; }
 .porygon-navbar .navbar-brand img {
   width: 13rem; }
+
+/* Components */
+.photo-block-intro {
+  position: relative; }
+  .photo-block-intro__photo {
+    width: 100%; }
+    .photo-block-intro__photo--tab {
+      width: 7rem;
+      height: 7rem; }
+  .photo-block-intro__content {
+    bottom: 0;
+    color: #fff;
+    padding: 4.5rem;
+    position: absolute; }
+  .photo-block-intro__headline {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-size: 3.4rem;
+    margin-bottom: 4.5rem;
+    width: 60%; }
+  .photo-block-intro__author {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase; }
+    .photo-block-intro__author a {
+      color: #fff;
+      border-bottom: 1px solid #fff; }
+  .photo-block-intro__num {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #1f1f1f;
+    height: 2.5rem;
+    width: 2.5rem; }
+    .photo-block-intro__num span {
+      height: 2.5rem;
+      width: 2.5rem;
+      text-align: center; }
+
+.tabs-main__intro h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 1.4rem; }
+.tabs-main__intro a {
+  color: #6a00d6;
+  border-bottom: 1px solid #6a00d6; }
+.tabs-main__tab {
+  background-color: #1f1f1f;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.5); }
+  .tabs-main__tab.active {
+    background-color: #262626; }
+  .tabs-main__tab:last-child {
+    border-bottom: none; }
+  .tabs-main__tab h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.6rem; }
+  .tabs-main__tab a {
+    color: #bfbfbf;
+    font-weight: normal;
+    font-size: 1.6rem; }
+.tabs-main .nav-tabs {
+  height: 100%;
+  border-bottom: none; }
+
+.block-news__img {
+  position: relative; }
+  .block-news__img img {
+    width: 100%; }
+.block-news__tag {
+  background-color: #fff;
+  color: #ababab;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  position: absolute; }

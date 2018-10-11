@@ -1,0 +1,37 @@
+.tabs-main{
+  &__intro {
+    h2 {
+      @include title-sm;
+      font-size: 1.4rem;
+    }
+    a {
+      color: $c-primary;
+      border-bottom: 1px solid $c-primary;
+    }
+  }
+
+  &__tab {
+    background-color: $c-dark;
+    border-bottom: 1px solid rgba($c-lightgrey,0.5);
+    &.active {
+      background-color: $c-darkgrey;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+    h3 {
+      color: $c-white;
+      font-weight: normal;
+      font-size: 1.6rem;
+    }
+    a {
+      color: $c-mediumgrey;
+      font-weight: normal;
+      font-size: 1.6rem;
+    }
+  }
+  .nav-tabs {
+    height: 100%;
+    border-bottom: none;
+  }
+}

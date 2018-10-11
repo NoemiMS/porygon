@@ -1,0 +1,43 @@
+.photo-block-intro {
+  position: relative;
+  &__photo {
+    width: 100%;
+    &--tab {
+      width: 7rem;
+      height: 7rem;
+    }
+  }
+  &__content {
+    bottom: 0;
+    color: $c-white;
+    padding: 4.5rem;
+    position: absolute;
+  }
+  &__headline {
+    @include base-font;
+    font-size: 3.4rem;
+    margin-bottom: 4.5rem;
+    width: 60%;
+  }
+  &__author {
+    @include title-sm;
+    a {
+      color: $c-white;
+      border-bottom: 1px solid $c-white;
+    }
+  }
+  &__num {
+    @include title-sm;
+    background-color: $c-white;
+    border-radius: 50%;
+    color: $c-dark;
+
+    height: 2.5rem;
+    width: 2.5rem;
+    span {
+      height: 2.5rem;
+      width: 2.5rem;
+      text-align: center;
+    }
+  }
+}
