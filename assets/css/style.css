@@ -12,7 +12,7 @@ body {
 
 /* Custom bootstrap base styles */
 .bg-dark {
-  background-color: #1f1f1f; }
+  background-color: #1f1f1f !important; }
 
 .ad-full img {
   width: 100%; }
@@ -33,6 +33,18 @@ body {
   padding: 0 1rem; }
 .porygon-navbar .navbar-brand img {
   width: 13rem; }
+
+.btn.btn-default {
+  background-color: #6a00d6;
+  border-radius: 0;
+  color: #fff;
+  padding: 1rem 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  width: 20rem; }
 
 /* Components */
 .photo-block-intro {
@@ -67,6 +79,7 @@ body {
     font-size: 1.2rem;
     letter-spacing: 0.4rem;
     text-transform: uppercase;
+    letter-spacing: 0;
     background-color: #fff;
     border-radius: 50%;
     color: #1f1f1f;
@@ -131,3 +144,44 @@ body {
 .block-news__text {
   color: #ababab;
   line-height: 2.5rem; }
+
+.porygon-footer {
+  height: 62.5rem;
+  padding: 6.5rem 0; }
+  .porygon-footer .container, .porygon-footer .d-flex, .porygon-footer .col-md-6 {
+    height: 100%; }
+  .porygon-footer__up a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    color: #ababab; }
+  .porygon-footer__up h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2rem; }
+  .porygon-footer__down {
+    width: 50%;
+    color: #ababab;
+    font-size: 1.2rem; }
+    .porygon-footer__down .navbar-nav {
+      flex-direction: row; }
+    .porygon-footer__down a {
+      color: #ababab;
+      font-size: 1.2rem;
+      position: relative;
+      padding-right: 1rem; }
+  .porygon-footer__logo {
+    margin-bottom: 4.5rem;
+    opacity: 0.5;
+    width: 18rem; }
+  .porygon-footer .input-group input {
+    background: none;
+    border-width: 0 0 2px 0;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    padding: 22px 0px;
+    width: 60%; }

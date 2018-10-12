@@ -28,6 +28,7 @@
   }
   &__num {
     @include title-sm;
+    letter-spacing: 0;
     background-color: $c-white;
     border-radius: 50%;
     color: $c-dark;

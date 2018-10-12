@@ -1,0 +1,11 @@
+.btn {
+  &.btn-default {
+    background-color: $c-primary;
+    border-radius: 0;
+    color: $c-white;
+    padding: 1rem 0;
+    @include title-sm;
+    font-size: 1.4rem;
+    width: 20rem;
+  }
+}
