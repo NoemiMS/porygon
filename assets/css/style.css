@@ -72,6 +72,9 @@ body {
     color: #fff;
     padding: 4.5rem;
     position: absolute; }
+    @media (max-width: 768px) {
+      .photo-block-intro__content {
+        padding-bottom: 0.5rem; } }
   .photo-block-intro__headline {
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
@@ -79,6 +82,13 @@ body {
     font-size: 3.4rem;
     margin-bottom: 4.5rem;
     width: 60%; }
+    @media (max-width: 768px) {
+      .photo-block-intro__headline {
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 0.5rem; }
+        .photo-block-intro__headline:nth-child(2), .photo-block-intro__headline:nth-child(3) {
+          font-size: 1.5rem; } }
   .photo-block-intro__author {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
@@ -98,6 +108,17 @@ body {
     color: #1f1f1f;
     height: 3.5rem;
     width: 3.5rem; }
+  .photo-block-intro--tab .photo-block-intro__headline {
+    width: 80%; }
+  .photo-block-intro .icon-play {
+    background: url("../img/icons-sprite.png") no-repeat 0 -96px scroll transparent;
+    display: block;
+    position: absolute;
+    height: 7rem;
+    top: 45%;
+    left: 50%;
+    width: 7rem;
+    margin-left: -3.5rem; }
 
 .tabs-main__intro h2 {
   font-family: "Roboto", sans-serif;
@@ -170,8 +191,12 @@ body {
     font-size: 1.6rem; }
 
 .porygon-footer {
-  min-height: 62.5rem;
+  height: 62.5rem;
   padding: 6.5rem 0; }
+  @media (max-width: 768px) {
+    .porygon-footer {
+      min-height: 100%;
+      height: 100%; } }
   .porygon-footer .container, .porygon-footer .d-flex, .porygon-footer .col-md-6 {
     height: 100%; }
   .porygon-footer__up a {

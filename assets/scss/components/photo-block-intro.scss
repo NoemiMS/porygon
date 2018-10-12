@@ -1,4 +1,5 @@
 .photo-block-intro {
+  $photoBlockIntro: &;
   position: relative;
   &__photo {
     width: 100%;
@@ -12,12 +13,23 @@
     color: $c-white;
     padding: 4.5rem;
     position: absolute;
+    @media (max-width: 768px) {
+      padding-bottom: 0.5rem;
+    }
   }
   &__headline {
     @include base-font;
     font-size: 3.4rem;
     margin-bottom: 4.5rem;
     width: 60%;
+    @media (max-width: 768px) {
+      font-size: 2rem;
+      width: 100%;
+      margin-bottom: 0.5rem;
+      &:nth-child(2), &:nth-child(3) {
+        font-size: 1.5rem;
+      }
+    }
   }
   &__author {
     @include title-sm;
@@ -34,5 +46,22 @@
     color: $c-dark;
     height: 3.5rem;
     width: 3.5rem;
+  }
+  &--tab {
+    .photo-block-intro__headline {
+      width: 80%;
+    }
+  }
+
+
+  .icon-play {
+    background: url("../img/icons-sprite.png") no-repeat 0 -96px scroll transparent;
+    display: block;
+    position: absolute;
+    height: 7rem;
+    top: 45%;
+    left: 50%;
+    width: 7rem;
+    margin-left: -3.5rem;
   }
 }

@@ -1,6 +1,10 @@
 .porygon-footer {
-  min-height: 62.5rem;
+  height: 62.5rem;
   padding: 6.5rem 0;
+  @media (max-width: 768px) {
+    min-height: 100%;
+    height: 100%;
+  }
   .container, .d-flex, .col-md-6 {
     height: 100%;
   }
