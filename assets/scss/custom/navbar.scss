@@ -13,4 +13,18 @@
       width: 13rem;
     }
   }
+  &__user {
+     background: url("../img/icons-sprite.png") no-repeat -1.1rem -20rem scroll transparent;
+     display: block;
+     height: 5rem;
+     width: 6rem;
+   }
+  &__search {
+     background: url("../img/icons-sprite.png") no-repeat 0 -27rem scroll transparent;
+     display: block;
+     height: 4rem;
+      padding-left: 2rem;
+     width: 5rem;
+    opacity: 0.5;
+   }
 }

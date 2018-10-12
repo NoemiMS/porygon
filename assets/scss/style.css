@@ -18,8 +18,7 @@ body {
   width: 100%; }
 
 .ad-col {
-  margin-bottom: 4.5rem;
-  width: 100%; }
+  margin-bottom: 4.5rem; }
 
 /* Customize bootstrap components */
 .porygon-navbar .navbar {
@@ -34,18 +33,6 @@ body {
   padding: 0 1rem; }
 .porygon-navbar .navbar-brand img {
   width: 13rem; }
-.porygon-navbar__user {
-  background: url("../img/icons-sprite.png") no-repeat -1.1rem -20rem scroll transparent;
-  display: block;
-  height: 5rem;
-  width: 6rem; }
-.porygon-navbar__search {
-  background: url("../img/icons-sprite.png") no-repeat 0 -27rem scroll transparent;
-  display: block;
-  height: 4rem;
-  padding-left: 2rem;
-  width: 5rem;
-  opacity: 0.5; }
 
 .btn.btn-default {
   background-color: #6a00d6;
@@ -96,8 +83,8 @@ body {
     background-color: #fff;
     border-radius: 50%;
     color: #1f1f1f;
-    height: 3.5rem;
-    width: 3.5rem; }
+    height: 2.5rem;
+    width: 2.5rem; }
 
 .tabs-main__intro h2 {
   font-family: "Roboto", sans-serif;
@@ -159,8 +146,7 @@ body {
   line-height: 2.5rem; }
 .block-news__see-more {
   background-color: #f5f5f5;
-  padding: 2rem 0;
-  margin-top: 3rem; }
+  padding: 2rem 0; }
   .block-news__see-more a {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
@@ -170,7 +156,7 @@ body {
     font-size: 1.6rem; }
 
 .porygon-footer {
-  min-height: 62.5rem;
+  height: 62.5rem;
   padding: 6.5rem 0; }
   .porygon-footer .container, .porygon-footer .d-flex, .porygon-footer .col-md-6 {
     height: 100%; }
@@ -215,39 +201,10 @@ body {
   padding: 8rem 4rem 4rem;
   position: relative; }
   .block-trending__star {
-    background: url("../img/icons-sprite.png") no-repeat 0 0 scroll transparent;
-    display: block;
+    background: url("..imgicons-sprite.png") no-repeat 0 0 scroll transparent;
+    height: 6rem;
     position: absolute;
-    height: 7rem;
     top: -3rem;
-    left: 50%;
-    width: 7rem;
-    margin-left: -3.5rem; }
-  .block-trending__headline {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.2rem;
-    letter-spacing: 0.4rem;
-    text-transform: uppercase;
-    border-bottom: 1px solid #ababab;
-    font-size: 1.4rem;
-    display: inline-block;
-    margin-bottom: 2rem; }
-  .block-trending__list {
-    list-style: none;
-    margin-inline-start: 0;
-    margin-block-start: 0;
-    padding-inline-start: 0; }
-  .block-trending__list-item {
-    margin-bottom: 2rem; }
-  .block-trending__list-date, .block-trending__list-author {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.2rem;
-    letter-spacing: 0.4rem;
-    text-transform: uppercase;
-    color: #ababab;
-    font-size: 1.2rem; }
-  .block-trending__list-headline {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #1f1f1f; }
+    width: 6rem; }
+
+/*# sourceMappingURL=style.css.map */

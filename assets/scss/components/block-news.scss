@@ -37,6 +37,7 @@
   &__see-more {
     background-color: $c-lightgrey;
     padding: 2rem 0;
+    margin-top: 3rem;
     a {
       @include title-sm;
       color: $c-primary;

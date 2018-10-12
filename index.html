@@ -9,8 +9,6 @@
 
     <!-- Bootstrap CDN Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Fontawesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">    <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -46,13 +44,13 @@
                         <a class="nav-link" href="#">Design</a>
                     </li>
                 </ul>
-                <div class="mt-2 mt-md-0 d-flex">
-                    <div class="navbar-nav__user">
-                        <i class="i-user"></i>
+                <div class="mt-2 mt-md-0 d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                        <i class="porygon-navbar__user"></i>
                         <span>Sing in - Sing up</span>
                     </div>
-                    <div class="navbar-nav__search">
-                        <i class="far fa-search" aria-hidden="true"></i>
+                    <div>
+                        <i class="porygon-navbar__search" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -95,7 +93,7 @@
                 </div>
             </div>
         </section>
-        <section class="ad-full container p-0 pt-5">
+        <section class="ad-full container p-0 pt-5  d-none d-md-block">
             <img src="assets/img/ad-full.png" alt="Advertising full width">
         </section>
         <section class="tabs-main container p-0 pt-5 ">
@@ -200,7 +198,7 @@
         </section>
         <section class="block-news p-0 pt-5">
             <div class="container">
-                <div class="d-flex">
+                <div class="d-flex flex-column flex-md-row">
                     <div class="block-news__column col-md-4">
                         <div class="block-news__new">
                             <div class="block-news__img">
@@ -231,6 +229,27 @@
                             <div class="block-news__author"><a href="#">James Vincent</a> <span>May 26</span></div>
                             <div class="block-news__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi hic illo in iure mollitia neque odio quis repellendus sunt voluptas! Animi doloribus earum ex nihil officiis provident repellat repudiandae tempora. </div>
                         </div>
+                        <div class="block-trending d-flex flex-column justify-content-center">
+                            <i class="block-trending__star"></i>
+                            <h4 class="block-trending__headline text-center">Trending Discussions</h4>
+                            <ul class="block-trending__list">
+                                <li class="block-trending__list-item">
+                                    <p class="block-trending__list-date">MAY 27, 2015</p>
+                                    <p class="block-trending__list-headline">Millenials to Snake People is a Cloud to Butt whose time has come</p>
+                                    <p class="block-trending__list-author">By james vincent</p>
+                                </li>
+                                <li class="block-trending__list-item">
+                                    <p class="block-trending__list-date">MAY 27, 2015</p>
+                                    <p class="block-trending__list-headline">Millenials to Snake People is a Cloud to Butt whose time has come</p>
+                                    <p class="block-trending__list-author">By james vincent</p>
+                                </li>
+                                <li class="block-trending__list-item">
+                                    <p class="block-trending__list-date">MAY 27, 2015</p>
+                                    <p class="block-trending__list-headline">Millenials to Snake People is a Cloud to Butt whose time has come</p>
+                                    <p class="block-trending__list-author">By james vincent</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="block-news__column col-md-4">
                         <img class="ad-col" src="assets/img/ad-col.png" alt="Advertising">
@@ -254,7 +273,7 @@
     <!-- Footer -->
     <footer class="porygon-footer bg-dark">
         <div class="container">
-            <div class="d-flex p-0">
+            <div class="d-flex flex-column flex-md-row p-0">
                 <div class="col-md-6 p-0">
                     <div class="d-flex flex-column justify-content-between">
                         <div class="porygon-footer__up">
@@ -282,7 +301,7 @@
                 <div class="col-md-6 p-0">
                     <div class="d-flex flex-column justify-content-between">
                         <div class="porygon-footer__up">
-                            <div class="d-flex">
+                            <div class="d-flex flex-column flex-md-row">
                                 <div class="porygon-footer__nav col-md-4">
                                     <h4>The sections</h4>
                                     <ul class="nav navbar-nav">
